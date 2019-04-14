@@ -6,11 +6,11 @@ import './App.css';
 class App extends Component {
   state = {
     persons : [
-      { id:'123', name: 'Max', age: 28},
-      { id:'124',name: 'Manu', age: 29},
-      { id:'125',name: 'Stephanie', age: 26}
+      { id:'123', name: 'Rita Ji', age: 28},
+      { id:'124',name: 'Bunny', age: 29},
+      { id:'125',name: 'Motilal', age: 26}
     ],
-    otherState:'Some other value',
+    otherState:'some value',
     showPersons:false
   };
 
@@ -18,9 +18,9 @@ class App extends Component {
     this.setState(
       {
         persons : [
-          { name: 'Maximillion', age: 28},
-          { name: 'Manu', age: 29},
-          { name: 'Stephanie', age: 27}
+          { name: 'Rita', age: 28},
+          { name: 'Binni', age: 29},
+          { name: 'Moti', age: 27}
         ]
       }
     )

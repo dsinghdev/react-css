@@ -35,8 +35,8 @@ const cockpit = (props) => {
 
     return( 
     <div> 
-        <h1>Hi, I'm a React App</h1>
-        <p className={classes.join(' ')}>This is really working!</p>
+        <h1>React App using AWS Amplify</h1>
+        <p className={classes.join(' ')}>check it out!</p>
         <button style={style} onClick={props.clicked}>Toggle Persons</button>
     </div>)
 }
